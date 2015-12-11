@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bball">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/names"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="SUBSTITUES"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/transp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:alpha="0.6"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/teasa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="Team A"
+                        android:textStyle="bold"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="16dp">
+
+                        <EditText
+                            android:id="@+id/playeras1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameA1" />
+
+                        <EditText
+                            android:id="@+id/playeras2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameA2" />
+
+                        <EditText
+                            android:id="@+id/playeras3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameA3" />
+
+                        <EditText
+                            android:id="@+id/playeras4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameA4" />
+
+                        <EditText
+                            android:id="@+id/playeras5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameA5" />
+
+                        <EditText
+                            android:id="@+id/playeras6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameA6" />
+
+                        <EditText
+                            android:id="@+id/playeras7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameA7" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/black">
+
+                </View>
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/teasb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="Team B"
+                        android:textSize="24sp"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="16dp">
+
+                        <EditText
+                            android:id="@+id/playerbs1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameB1" />
+
+                        <EditText
+                            android:id="@+id/playerbs2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameB2" />
+
+                        <EditText
+                            android:id="@+id/playerbs3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameB3" />
+
+                        <EditText
+                            android:id="@+id/playerbs4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameB4" />
+
+                        <EditText
+                            android:id="@+id/playerbs5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameB5" />
+
+                        <EditText
+                            android:id="@+id/playerbs6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameB6" />
+
+                        <EditText
+                            android:id="@+id/playerbs7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="subNameB7" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/names"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/darker_gray"
+            android:text="Only enter names of Subs avaible for this game. Can leave remaining slots blank if number of Subs are less than slots above" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message"
+            android:layout_centerHorizontal="true"
+            android:text="Go"
+            android:textStyle="italic"
+            android:onClick="dataAct"/>
+    </RelativeLayout>
+</ScrollView>

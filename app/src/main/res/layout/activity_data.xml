@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbcourtbb">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/asdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/check"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/teama"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/scorea"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/threptsa"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="threPtsA"
+                    android:text="+3 points"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/twoptsa"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="twoPtsA"
+                    android:text="+2 points"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/freethrwa"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="freThrwA"
+                    android:text="Free Throw"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/foula"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="foulA"
+                    android:text="FOUL"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/turnovera"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="turnOverA"
+                    android:text="Turn Over"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/holo_orange_light" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/teamb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/scoreb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/threptsb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="threPtsB"
+                    android:text="+3 points"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/twoptsb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="twoPtsB"
+                    android:text="+2 points"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/freethrwb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="freThrwB"
+                    android:text="Free Throw"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/foulb"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="foulB"
+                    android:text="FOUL"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/turnoverb"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:onClick="turnOverB"
+                    android:text="Turn Over"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/asdf"
+            android:layout_marginTop="24dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="doReset"
+                android:text="Reset"
+                android:layout_marginRight="16dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showScores"
+                android:text="Scores"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

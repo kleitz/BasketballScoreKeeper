@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scorenamea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TeamAnameNScore"
+            android:textSize="24sp"
+            android:background="@android:color/darker_gray"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="Pts"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="3's"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="2's"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="FT"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="FL"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="TO"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="Pt"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="3s"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="2s"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="Fts"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="Fo"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="To"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="Fo"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="To"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box116"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box124"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box127"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box134"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box135"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box136"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box137"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/scorenameb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TeamBnameNScore"
+            android:textSize="24sp"
+            android:background="@android:color/darker_gray"
+            android:textStyle="bold"/>
+
+        <TableRow
+            android:id="@+id/rowb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box11b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box12b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="Pts"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box13b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="3's"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box14b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="2's"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box15b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="FT"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box16b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="FL"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box17b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:text="TO"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box21b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box22b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box23b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box24b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box25b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box26b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box27b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box31b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box32b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box33b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box34b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box35b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box36b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box37b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box41b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box42b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box43b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box44b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box45b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box46b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box47b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box51b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box52b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box53b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box54b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box55b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box56b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box57b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row6b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box61b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box62b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box63b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box64b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box65b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box66b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/box67b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="0"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/row7b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box71b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box72b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box73b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box74b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box75b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box76b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box77b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row8b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box81b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box82b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box83b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="3s"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box84b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="2s"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box85b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:hint="Fts"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box86b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box87b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row9b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box91b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box92b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box93b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box94b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box95b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box96b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box97b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row10b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box101b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box102b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box103b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box104b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box105b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box106b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box107b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row11b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box111b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box112b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box113b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box114b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box115b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box116b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box117b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row12b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box121b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box122b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box123b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box124b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box125b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box126b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box127b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row13b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/box131b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="N/A"
+                android:textSize="16sp"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/box132b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box133b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box134b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box135b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box136b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/box137b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:textSize="16sp"
+                android:text="0" />
+
+        </TableRow>
+    </LinearLayout>
+</ScrollView>
